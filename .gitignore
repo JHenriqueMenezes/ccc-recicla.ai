@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+.env
+
+# Datasets
+/datasets/
+/data/
+
+# Modelos e pesos (exceto o .gitkeep)
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.onnx
+
+# Saídas
+outputs/
+runs/
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
